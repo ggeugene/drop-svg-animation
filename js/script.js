@@ -95,14 +95,7 @@ window.addEventListener('load', function() {
         })
     })
     .then(() => {
-        return animate({
-            name: svg3,
-            styles: {
-                opacity: 0
-            }
-        })
-    })
-    .then(() => {
+        svg3.style.visibility = 'hidden';
         return animate({
             name: svg4,
             styles: {

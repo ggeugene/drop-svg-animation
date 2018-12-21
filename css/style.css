@@ -200,17 +200,17 @@ main {
 }
 .svg1 {
     top: -130px;
-    transition: top 2s cubic-bezier(1,0,1,1), opacity .1s ease;
+    transition: top 1s cubic-bezier(.8,.22,.22,.22), opacity .1s ease;
 }
 .svg2 {
     top: -55px;
-    transition: top .05s linear, opacity .1s linear;
+    transition: top .1s linear, opacity .1s linear;
     /* opacity: 0; */
     visibility: hidden;
 }
 .svg3 {
     opacity: 0;
-    top: 13%;
+    top: 8%;
     transition: top .2s ease, opacity .05s ease;
 }
 .svg4 {
